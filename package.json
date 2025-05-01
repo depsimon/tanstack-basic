@@ -1,5 +1,5 @@
 {
-	"name": "tanstack-depsimon-basic",
+	"name": "@depsimon/tanstack-basic",
 	"private": true,
 	"sideEffects": false,
 	"type": "module",

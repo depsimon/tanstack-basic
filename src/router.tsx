@@ -7,7 +7,7 @@ import {
 import { createRouter as createTanStackRouter } from "@tanstack/react-router";
 import { routerWithQueryClient } from "@tanstack/react-router-with-query";
 import { toast } from "sonner";
-import { routeTree } from "./routeTree.gen";
+import { routeTree } from "~/routeTree.gen";
 
 export interface AppContext {
 	queryClient: QueryClient;

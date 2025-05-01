@@ -7,9 +7,9 @@ import {
 } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import * as React from "react";
+import { Toaster } from "~/components/ui/sonner";
 import type { AppContext } from "~/router";
-import { Toaster } from "../components/ui/sonner";
-import stylesheetUrl from "../styles/app.css?url";
+import stylesheetUrl from "~/styles/app.css?url";
 
 export const Route = createRootRouteWithContext<AppContext>()({
 	head: () => ({

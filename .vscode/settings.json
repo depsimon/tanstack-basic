@@ -1,4 +1,5 @@
 {
+  "typescript.preferences.importModuleSpecifier": "non-relative",
   "files.watcherExclude": {
     "**/routeTree.gen.ts": true
   },

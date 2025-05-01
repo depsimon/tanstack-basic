@@ -8,6 +8,14 @@
 	"files": {
 		"ignoreUnknown": true
 	},
+	"css": {
+		"assist": {
+			"enabled": true
+		},
+		"formatter": {
+			"enabled": true
+		}
+	},
 	"formatter": {
 		"enabled": true,
 		"indentStyle": "tab"

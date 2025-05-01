@@ -6,6 +6,7 @@ import {
 } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import * as React from "react";
+import stylesheetUrl from "../styles/app.css?url";
 
 export const Route = createRootRoute({
 	head: () => ({
@@ -20,6 +21,11 @@ export const Route = createRootRoute({
 			{
 				title: "TanStack Start Starter",
 			},
+		],
+		links: [
+			{ rel: "stylesheet", href: stylesheetUrl },
+			{ rel: "preconnect", href: "https://rsms.me/" },
+			{ rel: "stylesheet", href: "https://rsms.me/inter/inter.css" },
 		],
 	}),
 	component: RootComponent,

@@ -12,6 +12,9 @@
 	},
 	"editor.formatOnSave": true,
 	"editor.tabSize": 2,
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
 	"files.watcherExclude": {
 		"**/routeTree.gen.ts": true
 	},

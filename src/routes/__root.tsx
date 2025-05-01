@@ -1,14 +1,17 @@
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import {
-	createRootRoute,
+	createRootRouteWithContext,
 	HeadContent,
 	Outlet,
 	Scripts,
 } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import * as React from "react";
+import type { AppContext } from "~/router";
+import { Toaster } from "../components/ui/sonner";
 import stylesheetUrl from "../styles/app.css?url";
 
-export const Route = createRootRoute({
+export const Route = createRootRouteWithContext<AppContext>()({
 	head: () => ({
 		meta: [
 			{
@@ -35,7 +38,9 @@ function RootComponent() {
 	return (
 		<RootDocument>
 			<Outlet />
-			<TanStackRouterDevtools />
+			<TanStackRouterDevtools position="bottom-right" />
+			<ReactQueryDevtools buttonPosition="bottom-left" />
+			<Toaster />
 		</RootDocument>
 	);
 }

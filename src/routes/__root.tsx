@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import {
 	createRootRouteWithContext,
@@ -6,7 +7,7 @@ import {
 	Scripts,
 } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
-import * as React from "react";
+import type * as React from "react";
 import { Toaster } from "~/components/ui/sonner";
 import type { AppContext } from "~/router";
 import stylesheetUrl from "~/styles/app.css?url";

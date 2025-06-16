@@ -11,6 +11,9 @@ This template uses the following tools:
 - [Lefthook](https://lefthook.dev/) as the git hooks manager
 - [Tailwind CSS](https://tailwindcss.com/) as the CSS framework
 
+> [!TIP]
+Looking to deploy on Cloudflare with KV & D1 Database? Checkout the [Start Cloudflare template](https://github.com/depsimon/tanstack-start-cf).
+
 ## Installation
 
 To setup a project from this template, the simplest way is to use gitpick:
